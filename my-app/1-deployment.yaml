@@ -18,7 +18,9 @@ spec:
     spec:
       containers:
         - name: nginx
-          imagePullPolicy: Always
-          image: naist4869/nginx:v0.1.0
+          image: naist4869/nginx:v0.1.1
           ports:
             - containerPort: 80
+
+
+            
