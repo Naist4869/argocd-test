@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: nginx
 spec:
-  replaces: 1
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
@@ -16,6 +16,6 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: naist4869/nginx:v0.1.2
+          image: aputra/nginx
           ports:
             - containerPort: 80
