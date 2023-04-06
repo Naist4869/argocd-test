@@ -1,7 +1,7 @@
 ---
 namespace: staging
 images:
-  - name: aputra/nginx
-    newTag: v0.1.0
+  - name: naist4869/nginx
+    newTag: v0.1.2
 resources:
   - ../../../my-app-base
